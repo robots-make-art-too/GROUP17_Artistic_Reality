@@ -38,3 +38,12 @@ Mohammed, Haobin, Sarika, Basma, Raju
         
         https://techcrunch.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-23-at-8.49.14-AM.png
         
+        https://brianbock.net/wp-content/uploads/2020/02/colored_cubes-1-1024x574.png
+        
+        https://i.ytimg.com/vi/9bB-5C4KE2E/hqdefault.jpg
+        
+        https://learnopencv.com/wp-content/uploads/2020/03/augmented-reality-aruco-markers-opencv.jpg
+        
+        https://www.oreilly.com/library/view/opencv-computer-vision/9781787125490/graphics/B04554_12_21.jpg
+        
+        https://i.ytimg.com/vi/tYIrvK0O06M/hqdefault.jpg
