@@ -18,7 +18,3 @@ Mohammed, Haobin, Sarika, Basma, Raju
         https://media-cldnry.s-nbcnews.com/image/upload/newscms/2017_51/2266186/171218-augmented-relaity-mn-1820.jpg    
         https://multichannelmerchant.com/wp-content/uploads/2021/01/augmented-reality-marketing-street-scene-on-mobile-feature.jpg
         https://techcrunch.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-23-at-8.49.14-AM.png
-
-
-
-
