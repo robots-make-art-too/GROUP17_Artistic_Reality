@@ -15,6 +15,16 @@ Mohammed, Haobin, Sarika, Basma, Raju
         https://www.pyimagesearch.com/2021/01/04/opencv-augmented-reality-ar/
         
         https://www.pyimagesearch.com/2021/01/11/opencv-video-augmented-reality/
+        
+        https://www.pyimagesearch.com/2021/01/04/opencv-augmented-reality-ar/
+        
+        https://brianbock.net/augmented-reality-in-python/
+        
+        https://medium.com/swlh/augmented-reality-diy-3fc138274561
+        
+        https://youtu.be/7gSWd2hodFU
+        
+        https://www.youtube.com/watch?v=hb-iCauwRH0
 
 ### Artistic Resources:
 
