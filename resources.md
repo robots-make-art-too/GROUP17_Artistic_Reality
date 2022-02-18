@@ -26,6 +26,16 @@ Mohammed, Haobin, Sarika, Basma, Raju
         
         https://www.youtube.com/watch?v=hb-iCauwRH0
 
+        https://levelup.gitconnected.com/simple-augmented-reality-ar-integration-with-a-frame-f625e9dc66b8
+
+        https://3sidedcube.com/ar-js-a-guide-to-developing-an-augmented-reality-web-app/#:~:text=it%20used%20for%3F-,AR.,create%20more%20innovative%20digital%20experiences
+
+        https://medium.com/@kristen.carter/build-your-next-ar-vr-web-app-using-javascript-32d3252e5756
+
+        https://github.com/jayantjain100/Augmented-Reality
+
+        https://vrgamedevelopment.pro/how-to-code-an-ar-application/
+
 ### Artistic Resources:
 
         https://9to5mac.com/wp-content/uploads/sites/6/2017/09/4cfd763cba53a835205e6075_rw_1200.jpg?quality=82&strip=all&w=1000
@@ -47,3 +57,14 @@ Mohammed, Haobin, Sarika, Basma, Raju
         https://www.oreilly.com/library/view/opencv-computer-vision/9781787125490/graphics/B04554_12_21.jpg
         
         https://i.ytimg.com/vi/tYIrvK0O06M/hqdefault.jpg
+
+        https://www.aircards.co/blog/top-7-qr-code-augmented-reality-examples
+
+        https://www.canva.com/colors/color-palettes/
+
+        https://graffitocanberra.wordpress.com/styles-of-graffiti/
+
+        https://www.wbur.org/news/2016/08/29/boston-best-public-art
+
+        https://www.thrillist.com/travel/nation/street-art-wall-murals-public-art-from-around-the-world
+        
