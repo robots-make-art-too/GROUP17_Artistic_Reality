@@ -1,0 +1,31 @@
+---
+layout: default
+title: Sample Site
+permalink: index-1.html
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="../assets/css/style.css">
+			<title>Sample Group Project Site</title>
+	</head>
+	<center>
+		<body>
+			<h2>JavaScript Button to AR page</h2>
+			<p id="demo">Building Interactive Systems</p>
+			<button type="button" onclick="openTab('ar-index.html')">Take me to AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+		</body>
+	</center>
+</html>
