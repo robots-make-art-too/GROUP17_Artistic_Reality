@@ -14,6 +14,5 @@ Click "AR CAMERA" to open up your camera and start playing with AR
 
 [AR CAMERA](website/pages/index-1.html)
 
-			<button type="button" onclick="openTab('ar-index.html')">Take me to AR</button>
 
 
