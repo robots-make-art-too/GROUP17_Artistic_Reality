@@ -4,9 +4,9 @@ permalink: index
 
 # Artistic Reality Group 17
 
-Just a little site example
+EECS 1720 GROUP PROJECT
 
-## AR content
+## AR content for phaze 2
 
 As they are updated you can find links to examples of the different types of AR.
 
