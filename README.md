@@ -4,7 +4,7 @@
 - [ ] screen capture of the AR live scene
 - [ ] an example of at least one asset/3D model created by the group
 
-- [ ] a custom QR code that directly loads to your AR scene on github pages
+- [x] a custom QR code that directly loads to your AR scene on github pages
 - [ ] a custom pattern or barcode marker for the AR scene
 
 - [ ] the asset is to be displayed via the groups pages site, and can be activated when someone scans the QR code via mobile
