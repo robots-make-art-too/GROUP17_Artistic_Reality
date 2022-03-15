@@ -6,7 +6,7 @@ permalink: index
 
 EECS 1720 GROUP PROJECT
 
-## AR content for phaze 2
+## AR content for phase 2
 
 As they are updated you can find links to examples of the different types of AR.
 
