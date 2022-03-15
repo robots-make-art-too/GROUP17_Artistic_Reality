@@ -5,7 +5,7 @@
 - [ ] an example of at least one asset/3D model created by the group
 
 - [x] a custom QR code that directly loads to your AR scene on github pages
-- [ ] a custom pattern or barcode marker for the AR scene
+- [x] a custom pattern or barcode marker for the AR scene
 
 - [ ] the asset is to be displayed via the groups pages site, and can be activated when someone scans the QR code via mobile
 - [ ] include a discussion summary, images, sample code or artwork etc.
