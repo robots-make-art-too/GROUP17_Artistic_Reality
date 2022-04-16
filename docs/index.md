@@ -7,9 +7,13 @@ permalink: index
 EECS 1720 GROUP PROJECT
 
 Haobin Alturo
+
 Raju Sivanantham
+
 Mohammed Mawi
+
 Sarika Patel
+
 Basma Gado
 
 
