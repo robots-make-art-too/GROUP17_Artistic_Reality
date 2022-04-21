@@ -1,10 +1,16 @@
-# Sample site for group projects
+# Artistic Reality Group 17
 
-Just a little site example
+EECS 1720 GROUP PROJECT
 
-## AR content
+Haobin Alturo
 
-As they are updated you can find links to examples of the different types of AR.
+Raju Sivanantham
+
+Mohammed Mawi
+
+Sarika Patel
+
+Basma Gado
 
 1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at:
    - [Types of AR](website/AR-landing.html)
