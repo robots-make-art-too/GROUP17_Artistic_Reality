@@ -1,0 +1,458 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2406,
+      "max": [
+        104.44261169433594,
+        52.548038482666016,
+        104.44268035888672
+      ],
+      "min": [
+        -104.44270324707031,
+        -119.65036010742188,
+        -104.44273376464844
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 28872,
+      "componentType": 5126,
+      "count": 2406,
+      "max": [
+        0.9999727606773376,
+        1.0,
+        0.9999727606773376
+      ],
+      "min": [
+        -0.9999727606773376,
+        -1.0,
+        -0.9999727606773376
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2406,
+      "max": [
+        1.0,
+        0.9167069792747498,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9167076945304871,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2406,
+      "max": [
+        0.9150000214576721,
+        0.991599977016449
+      ],
+      "min": [
+        0.0024999999441206455,
+        0.004000000189989805
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 19248,
+      "componentType": 5126,
+      "count": 2406,
+      "max": [
+        0.9150000214576721,
+        0.991599977016449
+      ],
+      "min": [
+        0.0024999999441206455,
+        0.004000000189989805
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 10656,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 57744,
+      "componentType": 5126,
+      "count": 929,
+      "max": [
+        76.96865844726563,
+        56.0885009765625,
+        75.50254821777344
+      ],
+      "min": [
+        -70.34375,
+        -65.52520751953125,
+        -73.94544982910156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 68892,
+      "componentType": 5126,
+      "count": 929,
+      "max": [
+        0.9989622235298157,
+        0.9998788237571716,
+        0.9941917061805725
+      ],
+      "min": [
+        -0.9917854070663452,
+        -0.9998970627784729,
+        -0.998539388179779
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 38496,
+      "componentType": 5126,
+      "count": 929,
+      "max": [
+        0.998993456363678,
+        0.9987304210662842,
+        0.9992010593414307,
+        1.0
+      ],
+      "min": [
+        -0.9996137022972107,
+        -0.9979560971260071,
+        -0.9996378421783447,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 38496,
+      "componentType": 5126,
+      "count": 929,
+      "max": [
+        0.9889000058174133,
+        0.9948999881744385
+      ],
+      "min": [
+        0.004699999932199717,
+        0.003700000001117587
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 45928,
+      "componentType": 5126,
+      "count": 929,
+      "max": [
+        0.9889000058174133,
+        0.9948999881744385
+      ],
+      "min": [
+        0.004699999932199717,
+        0.003700000001117587
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 42624,
+      "componentType": 5125,
+      "count": 4500,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Ville Seppänen (https://sketchfab.com/accuman)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/snake-statue-794b77a3e4654a669cf259d20dc89ec7",
+      "title": "Snake Statue"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 60624,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 53360,
+      "byteOffset": 60624,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 80040,
+      "byteOffset": 113984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 53360,
+      "byteOffset": 194024,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 247384,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/snake_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/snake_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/snake_normal.png"
+    },
+    {
+      "uri": "textures/stones_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/stones_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/stones_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "snake",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 0.7000000000000001
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.2,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.39
+      }
+    },
+    {
+      "name": "stones",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4,
+        "strength": 0.87
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.2,
+        "metallicRoughnessTexture": {
+          "index": 4
+        },
+        "roughnessFactor": 0.41000000000000003
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "stone_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "snakelp_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        0.005600000000000001,
+        -0.033920000000000006,
+        0.0,
+        0.0,
+        -0.0,
+        -0.0,
+        0.03438000000000001,
+        0.0,
+        -0.033920000000000006,
+        -0.005600000000000001,
+        -0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.064829999999999,
+        1.0
+      ],
+      "name": "stone"
+    },
+    {
+      "mesh": 0,
+      "name": "stone_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.03737000000000001,
+        0.0069000000000000025,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        0.038000000000000006,
+        0.0,
+        0.0069000000000000025,
+        -0.03737000000000001,
+        -0.0,
+        0.0,
+        0.0,
+        0.0,
+        7.062149999999999,
+        1.0
+      ],
+      "name": "snakelp"
+    },
+    {
+      "mesh": 1,
+      "name": "snakelp_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
