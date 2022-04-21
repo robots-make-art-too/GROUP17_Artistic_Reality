@@ -1,3 +1,9 @@
 title: [Virtual Public Sculpture]
 logo: logo.jpg
-theme: jekyll-theme-minimal
+theme: jekyll-theme-beautiful
+
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
