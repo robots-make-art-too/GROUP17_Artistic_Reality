@@ -1,101 +1,109 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = '﹖';
-//    let places = staticLoadPlaces();
+    let places = staticLoadPlaces();
     renderPlaces(places);
     console.log('Hello');
 
-    if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition (
-                gpspos=> {
-                    console.log(`Lat ${gpspos.coords.latitude} Lon ${gpspos.coords.longitude}`); // show on the console
-                },
-                err=> {
-                    alert(`An error occurred: ${err.code}`);
-                }
-            );
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            gpspos => {
+                console.log(`Lat ${gpspos.coords.latitude} Lon ${gpspos.coords.longitude}`); // show on the console
+            },
+            err => {
+                alert(`An error occurred: ${err.code}`);
+            }
+        );
     } else {
         alert("Sorry, geolocation not supported in this browser");
     }
 };
 
-/*
 function staticLoadPlaces() {
-     return [
-         {
-             name: 'myModels',
-             location: {
-                lat: 43.83450,
-                lng: -78.99320,
-             }
-         },
-     ];
-}*/
+    if (modelIndex == 0) {
+        return [
+            {
+                name: 'myModels0',
+                location: {
+                    lat: 43.83450,
+                    lng: -78.99320,
+                }
+            },
+        ];
+    }
+    if (modelIndex == 1) {
+        return [
+            {
+                name: 'myModels1',
+                location: {
+                    lat: 43.83450,
+                    lng: -78.99320,
+                }
+            },
+        ];
+    }
+    if (modelIndex == 3) {
+        return [
+            {
+                name: 'myModels2',
+                location: {
+                    lat: 43.772842,
+                    lng: -79.505365,
+                }
+            },
+        ];
+    }
+}
 
 var models = [
-    /*
     {
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '1',
-        message: '1',
-        lat: 43.83450,
-        lng: -78.99320,
+        message: '1'
     },
     {
         url: './assets/herobrine/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '2',
-        message: '2',
-        lat: 43.83450,
-        lng: -78.99320,
-    },*/
+        message: '2'
+    },
     {
         url: './assets/magic_book_of_eden/scene.gltf',
         scale: '1.2 1.2 1.2',
         rotation: '0 180 0',
         info: '3',
-        message: '3',
-        lat: 43.772842,
-        lng: -79.505365,
+        message: '3'
     },
     {
         url: './assets/snake_statue/scene.gltf',
         scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
         info: '4',
-        message: '4',
-        lat: 43.772087,
-        lng: -79.502759,
+        message: '4'
     },
     {
         url: './assets/head/scene.gltf',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
         info: '5',
-        message: '5',
-        lat: 43.83450,
-        lng: -78.99320,
+        message: '5'
     },
     {
         url: './assets/head/scene.glb',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
         info: '6',
-        message: '6',
-        lat: 43.83450,
-        lng: -78.99320,
+        message: '6'
     },
     {
         url: './assets/food/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '7',
-        message: '7',
-        lat: 43.83450,
-        lng: -78.99320,
+        message: '7'
     },
     {
         url: './assets/tennis/scene.gltf',
@@ -103,8 +111,6 @@ var models = [
         rotation: '0 180 0',
         info: '8',
         message: '8',
-        lat: 43.83450,
-        lng: -78.99320,
     },
 ];
 
@@ -129,18 +135,18 @@ var setModel = function (model, entity) {
 };
 
 function renderPlaces(places) {
-     let scene = document.querySelector('a-scene');
+    let scene = document.querySelector('a-scene');
 
-     places.forEach((place) => {
-         let latitude = place.location.lat;
-         let longitude = place.location.lng;
+    places.forEach((place) => {
+        let latitude = place.location.lat;
+        let longitude = place.location.lng;
 
-         let model = document.createElement('a-entity');
-         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        let model = document.createElement('a-entity');
+        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
-         setModel(models[modelIndex], model);
+        setModel(models[modelIndex], model);
 
-         model.setAttribute('animation-mixer', '');
+        model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-entity-place]');
@@ -149,6 +155,6 @@ function renderPlaces(places) {
             setModel(models[newIndex], entity);
         });
 
-         scene.appendChild(model);
-     });
+        scene.appendChild(model);
+    });
 }
