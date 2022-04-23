@@ -18,7 +18,7 @@ window.onload = () => {
         alert("Sorry, geolocation not supported in this browser");
     }
 };
-modelIndex == 0;
+var modelIndex = 0; 
 
 function staticLoadPlaces() {
     if (modelIndex == 0) {
@@ -115,7 +115,7 @@ var models = [
     },
 ];
 
-var modelIndex = 0;
+
 var setModel = function (model, entity) {
     if (model.scale) {
         entity.setAttribute('scale', model.scale);
