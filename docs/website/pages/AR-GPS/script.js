@@ -115,7 +115,7 @@ var setModel = function (model, entity) {
 };
 
 function renderPlaces(places) {
-    let places = staticLoadPlaces();
+    places = staticLoadPlaces();
     let scene = document.querySelector('a-scene');
 
     places.forEach((place) => {
