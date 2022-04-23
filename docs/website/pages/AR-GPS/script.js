@@ -22,37 +22,16 @@ var modelIndex = 0;
 
 function staticLoadPlaces() {
     if (modelIndex == 0) {
-        return [
-            {
-                name: 'myModels0',
-                location: {
-                    lat: 43.83450,
-                    lng: -78.99320,
-                }
-            },
-        ];
+        return [{name: 'myModels',location: {lat: 43.772842,lng: -79.505365,}},];
     }
     if (modelIndex == 1) {
-        return [
-            {
-                name: 'myModels1',
-                location: {
-                    lat: 43.83450,
-                    lng: -78.99320,
-                }
-            },
-        ];
+        return [{name: 'myModels',location: {lat: 43.772842,lng: -79.505365,}},];
+    }
+    if (modelIndex == 2) {
+        return [{name: 'myModels',location: {lat: 43.772842,lng: -79.505365,}},];
     }
     if (modelIndex == 3) {
-        return [
-            {
-                name: 'myModels2',
-                location: {
-                    lat: 43.772842,
-                    lng: -79.505365,
-                }
-            },
-        ];
+        return [{name: 'myModels',location: {lat: 43.772842,lng: -79.505365,}},];
     }
 }
 
@@ -136,6 +115,7 @@ var setModel = function (model, entity) {
 };
 
 function renderPlaces(places) {
+    let places = staticLoadPlaces();
     let scene = document.querySelector('a-scene');
 
     places.forEach((place) => {
