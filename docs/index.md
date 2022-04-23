@@ -2,15 +2,32 @@
 
 EECS 1720 GROUP PROJECT
 
-We have placed multiple objects around York University, some includes information about that specific place.
-Just click to the "TAKE ME THERE!"
+Description:
+Welcome to Across York by Artistic Reality from LE/EECS1720. Across York is a location-based augmented reality experience like a scavenger hunt. Visit the various locations across York University and discover hidden surprises. When you are ready, click on “TAKE ME THERE!”
+
+
+Good Luck!
+
 
    - [TAKE ME THERE!](website/pages/AR-GPS/index.html)
 
 
+### Locations:
 ```
-Group Members:
+Aviva Centre
+York University Station
+York University Station
+York Lanes
+Vari Hall
+York Fountain
+Sound and Moving Image Library
+Joan and Martin Goldfarb Centre for Fine Arts
+Lassonde Building
+Bennett Centre for Student Services
+```
 
+### Members of Artistic Reality:
+```
 Haobin Alturo
 Raju Sivanantham
 Mohammed Mawi
