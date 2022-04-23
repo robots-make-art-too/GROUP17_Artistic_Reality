@@ -18,6 +18,7 @@ window.onload = () => {
         alert("Sorry, geolocation not supported in this browser");
     }
 };
+modelIndex == 0;
 
 function staticLoadPlaces() {
     if (modelIndex == 0) {
