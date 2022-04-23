@@ -1,7 +1,7 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = '﹖';
-    let places = staticLoadPlaces();
+//    let places = staticLoadPlaces();
     renderPlaces(places);
     console.log('Hello');
 
@@ -19,7 +19,7 @@ window.onload = () => {
     }
 };
 
-
+/*
 function staticLoadPlaces() {
      return [
          {
@@ -30,64 +30,81 @@ function staticLoadPlaces() {
              }
          },
      ];
-}
+}*/
 
 var models = [
+    /*
     {
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '1',
-        message: '1'
+        message: '1',
+        lat: 43.83450,
+        lng: -78.99320,
     },
     {
         url: './assets/herobrine/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '2',
-        message: '2'
-    },
+        message: '2',
+        lat: 43.83450,
+        lng: -78.99320,
+    },*/
     {
         url: './assets/magic_book_of_eden/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '1.2 1.2 1.2',
         rotation: '0 180 0',
         info: '3',
-        message: '3'
+        message: '3',
+        lat: 43.772842,
+        lng: -79.505365,
     },
     {
         url: './assets/snake_statue/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
         info: '4',
-        message: '4'
+        message: '4',
+        lat: 43.772087,
+        lng: -79.502759,
     },
     {
         url: './assets/head/scene.gltf',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
         info: '5',
-        message: '5'
+        message: '5',
+        lat: 43.83450,
+        lng: -78.99320,
     },
     {
         url: './assets/head/scene.glb',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
         info: '6',
-        message: '6'
+        message: '6',
+        lat: 43.83450,
+        lng: -78.99320,
     },
     {
         url: './assets/food/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: '7',
-        message: '7'
+        message: '7',
+        lat: 43.83450,
+        lng: -78.99320,
     },
     {
         url: './assets/tennis/scene.gltf',
         scale: '0.1 0.1 0.1',
         rotation: '0 180 0',
         info: '8',
-        message: '8'
+        message: '8',
+        lat: 43.83450,
+        lng: -78.99320,
     },
 ];
 
