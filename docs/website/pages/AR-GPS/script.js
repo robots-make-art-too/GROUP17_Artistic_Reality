@@ -81,6 +81,13 @@ var models = [
         info: '8',
         message: '8',
     },
+    {
+        url: './assets/books/scene.gltf',
+        scale: '1.2 1.2 1.2',
+        rotation: '0 180 0',
+        info: '3',
+        message: '3'
+    },
 ];
 
 
