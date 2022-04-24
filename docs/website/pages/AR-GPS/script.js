@@ -83,10 +83,10 @@ var models = [
     },
     {
         url: './assets/books/scene.gltf',
-        scale: '1.2 1.2 1.2',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: '3',
-        message: '3'
+        info: 'Basma Model',
+        message: 'Basma Model'
     },
 ];
 
