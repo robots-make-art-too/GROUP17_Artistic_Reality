@@ -25,7 +25,9 @@ function staticLoadPlaces() {
 }
 
 var models = [
+    /*
     {
+        
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
@@ -38,55 +40,56 @@ var models = [
         rotation: '0 180 0',
         info: '2',
         message: '2'
-    },
+    },*/
     {
         url: './assets/magic_book_of_eden/scene.gltf',
-        scale: '1.2 1.2 1.2',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: '3',
-        message: '3'
+        info: 'Magic Book',
+        message: 'Magic Book'
     },
     {
         url: './assets/snake_statue/scene.gltf',
         scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
-        info: '4',
-        message: '4'
+        info: 'Snake',
+        message: 'Snake'
     },
+    /*
     {
         url: './assets/head/scene.gltf',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
         info: '5',
         message: '5'
-    },
+    },*/
     {
         url: './assets/head/scene.glb',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
-        info: '6',
-        message: '6'
+        info: 'Head',
+        message: 'Head'
     },
     {
         url: './assets/food/scene.gltf',
-        scale: '0.5 0.5 0.5',
+        scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
-        info: '7',
-        message: '7'
+        info: 'Food',
+        message: 'Food'
     },
     {
         url: './assets/tennis/scene.gltf',
-        scale: '0.1 0.1 0.1',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: '8',
-        message: '8',
+        info: 'Tennis',
+        message: 'Tennis',
     },
     {
         url: './assets/books/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '1.2 1.2 1.2',
         rotation: '0 180 0',
-        info: 'Basma Model',
-        message: 'Basma Model'
+        info: 'Bookshelf',
+        message: 'Bookshelf'
     },
 ];
 
