@@ -1,6 +1,6 @@
 window.onload = () => {
-    const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+    // const button = document.querySelector('button[data-action="change"]');
+    // button.innerText = '﹖';
     let places = staticLoadPlaces();
     renderPlaces(places);
     console.log('Hello');
@@ -21,39 +21,87 @@ window.onload = () => {
 var modelIndex = 0; 
 
 function staticLoadPlaces() {
-    return [{name: 'myModels',location: {lat: 43.772842,lng: -79.505365,}},];
+    return [
+        {
+            name: 'eden',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            },
+            url: './assets/magic_book_of_eden/scene.gltf',
+            scale: '0.2 0.2 0.2',
+            rotation: '0 180 0',
+            info: 'Magic Book',
+            message: 'Magic Book',
+        },
+        {
+            name: 'head',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+        {
+            name: 'food',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+        {
+            name: 'tennis',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+        {
+            name: 'snake',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+        {
+            name: 'books',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+        {
+            name: 'computer',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+        {
+            name: 'telephone',
+            location: 
+            {
+                lat: 43.772842,
+                lng: -79.505365,
+            }
+        },
+    ];
 }
 
 var models = [
-    /*
     {
-        
-        url: './assets/magnemite/scene.gltf',
-        scale: '0.5 0.5 0.5',
-        rotation: '0 180 0',
-        info: '1',
-        message: '1'
-    },
-    {
-        url: './assets/herobrine/scene.gltf',
-        scale: '0.5 0.5 0.5',
-        rotation: '0 180 0',
-        info: '2',
-        message: '2'
-    },*/
-    {
+        name: 'eden',
         url: './assets/magic_book_of_eden/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
         info: 'Magic Book',
         message: 'Magic Book'
-    },
-    {
-        url: './assets/snake_statue/scene.gltf',
-        scale: '1.5 1.5 1.5',
-        rotation: '0 180 0',
-        info: 'Snake',
-        message: 'Snake'
     },
     /*
     {
@@ -64,6 +112,7 @@ var models = [
         message: '5'
     },*/
     {
+        name: 'head',
         url: './assets/head/scene.glb',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
@@ -71,6 +120,7 @@ var models = [
         message: 'Head'
     },
     {
+        name: 'food',
         url: './assets/food/scene.gltf',
         scale: '1.5 1.5 1.5',
         rotation: '0 180 0',
@@ -78,6 +128,7 @@ var models = [
         message: 'Food'
     },
     {
+        name: 'tennis',
         url: './assets/tennis/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
@@ -85,6 +136,31 @@ var models = [
         message: 'Tennis',
     },
     {
+        name: 'snake',
+        url: './assets/snake_statue/scene.gltf',
+        scale: '1.5 1.5 1.5',
+        rotation: '0 180 0',
+        info: 'Snake',
+        message: 'Snake'
+    },
+    {
+        name: 'books',
+        url: './assets/books/scene.gltf',
+        scale: '1.2 1.2 1.2',
+        rotation: '0 180 0',
+        info: 'Bookshelf',
+        message: 'Bookshelf'
+    },
+    {
+        name: 'computer',
+        url: './assets/books/scene.gltf',
+        scale: '1.2 1.2 1.2',
+        rotation: '0 180 0',
+        info: 'Bookshelf',
+        message: 'Bookshelf'
+    },
+    {
+        name: 'telephone',
         url: './assets/books/scene.gltf',
         scale: '1.2 1.2 1.2',
         rotation: '0 180 0',
@@ -107,6 +183,10 @@ var setModel = function (model, entity) {
         entity.setAttribute('position', model.position);
     }
 
+    if (model.name) {
+        entity.setAttribute('name', model.name);
+    }
+
     entity.setAttribute('gltf-model', model.url);
 
     const div = document.querySelector('.instructions');
@@ -119,20 +199,35 @@ function renderPlaces(places) {
     places.forEach((place) => {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
+        let modelName = place.name;
+        let url = places.url;
+        let info = places.info;
+        // ...
+
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
-        setModel(models[modelIndex], model);
+        // setModel(models[modelIndex], model);
 
         model.setAttribute('animation-mixer', '');
 
-        document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-            var entity = document.querySelector('[gps-entity-place]');
-            modelIndex++;
-            var newIndex = modelIndex % models.length;
-            setModel(models[newIndex], entity);
-        });
+        model.setAttribute('scale',)
+        model.setAttribute('rotation',)
+        model.setAttribute('position',)
+        // model.setAttribute('name',)
+        model.setAttribute('gltf-model',)
+
+
+        const div = document.querySelector('.instructions');
+        div.innerText = model.info;
+
+        // document.querySelector('button[data-action="change"]').addEventListener('click', function () {
+        //     var entity = document.querySelector('[gps-entity-place]');
+        //     modelIndex++;
+        //     var newIndex = modelIndex % models.length;
+        //     setModel(models[newIndex], entity);
+        // });
 
         scene.appendChild(model);
     });
