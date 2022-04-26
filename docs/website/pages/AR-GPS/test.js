@@ -91,6 +91,14 @@ function staticLoadPlaces() {
                 lng: -79.4980828,
             }
         },
+        {
+            name: 'microscope',
+            location: 
+            {
+                lat: 43.773735,
+                lng: -79.507699,
+            }
+        },
     ];
 }
 
