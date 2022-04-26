@@ -1,14 +1,14 @@
 # Checklist
 
-- [ X ] QR code submitted for printing (markers submitted for printing)
+- [x] QR code submitted for printing (markers submitted for printing)
    
-- [ X ] The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the     reminder to have a meeting with me)
+- [x] The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the     reminder to have a meeting with me)
 
 - [ ] Set of videos and photos documenting the experience and all working components
 
-- [ X ] The live website at gh - pages branch AND QR code to custom Group landing page and AR activation
+- [x] The live website at gh - pages branch AND QR code to custom Group landing page and AR activation
    
-- [ X ] Instructions, introduction, theme, story etc. as documentation on landing webpage
+- [x] Instructions, introduction, theme, story etc. as documentation on landing webpage
 
 - [ ] One of the following:
       -  List of GPS coords/locations
@@ -17,7 +17,7 @@
 
 - [ ] a clean and organized repo
 
-- [ X ] GitHub commits of content from each group member
+- [x] GitHub commits of content from each group member
 
 - [ ] PDF file of Group Project information - more comprehensive than the website landing page including:
        - Group members and contribution
