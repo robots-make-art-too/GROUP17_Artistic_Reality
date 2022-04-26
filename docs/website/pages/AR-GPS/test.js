@@ -68,7 +68,7 @@ function staticLoadPlaces() {
             }
         },
         {
-            name: 'books',
+            name: 'variety_of_books',
             location: 
             {
                 lat: 43.772842,
