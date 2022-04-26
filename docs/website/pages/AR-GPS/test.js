@@ -39,56 +39,56 @@ function staticLoadPlaces() {
             name: 'head',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.773191,
+                lng: -79.503064,
             }
         },
         {
             name: 'food',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.774261,
+                lng: -79.501614,
             }
         },
         {
             name: 'tennis',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.7718,
+                lng: -79.5126,
             }
         },
         {
             name: 'snake',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.772087,
+                lng: -79.502759,
             }
         },
         {
             name: 'variety_of_books',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.772342,
+                lng: -79.505551,
             }
         },
         {
             name: 'computer',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.774238,
+                lng: -79.505537,
             }
         },
         {
             name: 'telephone',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.772345,
+                lng: -79.4980828,
             }
         },
     ];
