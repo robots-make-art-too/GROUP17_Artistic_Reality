@@ -1,0 +1,11 @@
+Model Information:
+* title:	Microscope SWIFT SW380B
+* source:	https://sketchfab.com/3d-models/microscope-swift-sw380b-f81d863bec684b00a9b1ba4c2d844001
+* author:	Ricardo Dias Teixeira (https://sketchfab.com/RicardoDiasTeixeira)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Microscope SWIFT SW380B" (https://sketchfab.com/3d-models/microscope-swift-sw380b-f81d863bec684b00a9b1ba4c2d844001) by Ricardo Dias Teixeira (https://sketchfab.com/RicardoDiasTeixeira) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
