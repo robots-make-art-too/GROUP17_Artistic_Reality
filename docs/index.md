@@ -16,13 +16,13 @@ Good Luck!
 ```
 Aviva Centre
 York University Station
-York University Station
+Scott Library 
 York Lanes
 Vari Hall
-York Fountain
 Sound and Moving Image Library
 Joan and Martin Goldfarb Centre for Fine Arts
 Lassonde Building
+Life Sciences Buidling
 Bennett Centre for Student Services
 ```
 
