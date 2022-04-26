@@ -26,12 +26,19 @@
 			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
 			renderer="antialias: true; alpha: true">
 
-			<a-camera gps-camera rotation-reader></a-camera>
-			<a-camera gps-camera="simulateLatitude: 43.772087; simulateLongitude: -79.502759 gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera> -->
+			<!-- <a-camera gps-camera rotation-reader></a-camera> -->
+			<!-- <a-camera gps-camera position="0 3 0" rotation-reader></a-camera>			 -->
+
+ 			<!-- <a-camera gps-camera="simulateLatitude: 43.772087; simulateLongitude: -79.502759 gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera>  -->
+ 			<a-camera gps-camera="simulateLatitude: 43.772087; simulateLongitude: -79.502759" position="0 3 0" rotation-reader></a-camera> 			
+
+			<!-- <a-camera gps-camera="gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera> -->
 
 		</a-scene>
-		<div class="centered">
+		
+<!-- 		<div class="centered">
 			<button data-action="change"></button>
-		</div>
+		</div> -->
+	
 	</body>
 </html>
