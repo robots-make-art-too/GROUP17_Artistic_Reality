@@ -1,3 +1,5 @@
+# Checklist
+
 [X] QR code submitted for printing (markers submitted for printing)
    
 [X] The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the     reminder to have a meeting with me)
