@@ -32,8 +32,8 @@ function staticLoadPlaces() {
             url: './assets/magic_book_of_eden/scene.gltf',
             scale: '0.2 0.2 0.2',
             rotation: '0 180 0',
-            info: 'Magic Book',
-            message: 'Magic Book',
+            info: 'Eden Magic Book',
+            message: 'Eden Magic Book',
         },
         {
             name: 'head',
@@ -41,7 +41,13 @@ function staticLoadPlaces() {
             {
                 lat: 43.773191,
                 lng: -79.503064,
-            }
+            },
+            name: 'head',
+            url: './assets/head/scene.glb',
+            scale: '5.0 5.0 5.0',
+            rotation: '0 180 0',
+            info: 'Head',
+            message: 'Head'
         },
         {
             name: 'food',
@@ -49,7 +55,13 @@ function staticLoadPlaces() {
             {
                 lat: 43.774261,
                 lng: -79.501614,
-            }
+            },
+            name: 'food',
+            url: './assets/food/scene.gltf',
+            scale: '1.5 1.5 1.5',
+            rotation: '0 180 0',
+            info: 'Food',
+            message: 'Food'
         },
         {
             name: 'tennis',
@@ -57,7 +69,14 @@ function staticLoadPlaces() {
             {
                 lat: 43.7718,
                 lng: -79.5126,
-            }
+            },
+             name: 'tennis',
+            url: './assets/tennis/scene.gltf',
+            scale: '0.2 0.2 0.2',
+            rotation: '0 180 0',
+            info: 'Tennis',
+            message: 'Tennis',
+            
         },
         {
             name: 'snake',
@@ -65,7 +84,13 @@ function staticLoadPlaces() {
             {
                 lat: 43.772087,
                 lng: -79.502759,
-            }
+            },
+            name: 'snake',
+            url: './assets/snake_statue/scene.gltf',
+            scale: '1.5 1.5 1.5',
+            rotation: '0 180 0',
+            info: 'Snake',
+            message: 'Snake'
         },
         {
             name: 'variety_of_books',
@@ -73,7 +98,12 @@ function staticLoadPlaces() {
             {
                 lat: 43.772342,
                 lng: -79.505551,
-            }
+            },
+            url: './assets/variety_of_books/scene.gltf',
+            scale: '1.2 1.2 1.2',
+            rotation: '0 180 0',
+            info: 'Variety of Books',
+            message: 'Variety of Books'
         },
         {
             name: 'computer',
@@ -81,7 +111,12 @@ function staticLoadPlaces() {
             {
                 lat: 43.774238,
                 lng: -79.505537,
-            }
+            },
+            url: './assets/retro_computer_setup_free/scene.gltf',
+            scale: '1.2 1.2 1.2',
+            rotation: '0 180 0',
+            info: 'Computer',
+            message: 'Computer'
         },
         {
             name: 'telephone',
@@ -89,7 +124,12 @@ function staticLoadPlaces() {
             {
                 lat: 43.772345,
                 lng: -79.4980828,
-            }
+            },
+            url: './assets/telephone/scene.gltf',
+            scale: '1.2 1.2 1.2',
+            rotation: '0 180 0',
+            info: 'Telephone',
+            message: 'Telephone'
         },
         {
             name: 'microscope',
@@ -97,7 +137,12 @@ function staticLoadPlaces() {
             {
                 lat: 43.773735,
                 lng: -79.507699,
-            }
+            },
+            url: './assets/microscope/scene.gltf',
+            scale: '1.2 1.2 1.2',
+            rotation: '0 180 0',
+            info: 'Mircoscope',
+            message: 'Microscope'
         },
     ];
 }
