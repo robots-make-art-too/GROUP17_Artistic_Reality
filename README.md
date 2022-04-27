@@ -10,7 +10,7 @@
    
 - [x] Instructions, introduction, theme, story etc. as documentation on landing webpage
 
-- [ ] One of the following:
+- [x] One of the following:
       -  List of GPS coords/locations
       -  List of custom markers, printed
       -  List of facial features tracked, or points used for AR content
