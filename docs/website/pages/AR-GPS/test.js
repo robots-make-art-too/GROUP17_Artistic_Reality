@@ -255,6 +255,7 @@ function renderPlaces(places) {
         let modelName = place.name;
         let url = places.url;
         let info = places.info;
+        let message = places.message;
         // ...
 
 
