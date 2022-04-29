@@ -152,7 +152,7 @@ function renderPlaces(places) {
         model.setAttribute('rotation', rot);
         model.setAttribute('gltf-model', url);
         console.log(`${url}`);
-        let check = model.getAttribute('gps-entity-place');
+        let check = model.getAttribute(gps-entity-place);
         console.log(`${check}`);
         
         model.addEventListener('loaded', () => {
