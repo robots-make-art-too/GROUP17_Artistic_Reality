@@ -2,6 +2,8 @@ window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
     console.log('Hello');
+//     let check = document.querySelector('a-entity').getAttribute('gps-entity-place');
+//     console.log(`${check}`);
 };
 
 function staticLoadPlaces() {
@@ -161,8 +163,7 @@ function renderPlaces(places) {
         });
 
         scene.appendChild(model);
+        console.log(model);
     });
     
-    let check = document.querySelector('a-entity').getAttribute('gps-entity-place');
-    console.log(`${check}`);
 }
