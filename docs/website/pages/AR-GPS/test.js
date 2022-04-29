@@ -256,11 +256,11 @@ function renderPlaces(places) {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
         let modelName = place.name;
-        let url = places.url;
-        let info = places.info;
-        let message = places.message;
-        let rot = places.scale;
-        let scl = places.rotation;
+        let url = place.url;
+        let info = place.info;
+        let message = place.message;
+        let rot = place.scale;
+        let scl = place.rotation;
         // ...
 
 
