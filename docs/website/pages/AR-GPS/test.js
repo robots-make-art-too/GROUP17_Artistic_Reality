@@ -259,6 +259,8 @@ function renderPlaces(places) {
         let url = places.url;
         let info = places.info;
         let message = places.message;
+        let rot = places.scale;
+        let scl = places.rotation;
         // ...
 
 
@@ -269,15 +271,18 @@ function renderPlaces(places) {
 
         model.setAttribute('animation-mixer', '');
 
-        model.setAttribute('scale',)
-        model.setAttribute('rotation',)
-        model.setAttribute('position',)
+        model.setAttribute('scale', `${scl}`)
+        model.setAttribute('rotation', `${rot}`)
+//         model.setAttribute('position',)
         // model.setAttribute('name',)
-        model.setAttribute('gltf-model',)
+        model.setAttribute('gltf-model', `${url}`)
 
+        model.addEventListener('loaded', () => {
+            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'));        
+//             const div = document.querySelector('.instructions');
+//             div.innerText = model.info;
+        });
 
-        const div = document.querySelector('.instructions');
-        div.innerText = model.info;
 
         // document.querySelector('button[data-action="change"]').addEventListener('click', function () {
         //     var entity = document.querySelector('[gps-entity-place]');
