@@ -20,14 +20,17 @@ window.onload = () => {
 };
 var modelIndex = 0; 
 
+                // lat: 43.772842,
+                // lng: -79.505365,
+
 function staticLoadPlaces() {
     return [
         {
             name: 'eden',
             location: 
             {
-                lat: 43.772842,
-                lng: -79.505365,
+                lat: 43.68603,
+                lng: -79.41414,
             },
             url: './assets/magic_book_of_eden/scene.gltf',
             scale: '0.2 0.2 0.2',
