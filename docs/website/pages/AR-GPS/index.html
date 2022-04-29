@@ -4,18 +4,16 @@
 		<meta charset='utf-8'>
 		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <!-- 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"> -->
-		<script src='https://aframe.io/releases/0.9.2/aframe.min.js'></script>
-		<script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
-		<script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-		<script>
-			THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
-		</script>
+
+		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script type="text/javascript" src="ar-threex.js"></script>
 
 <!-- 		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> -->
 		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
 
-<!-- 		<script type='text/javascript' src='./test.js'></script>
-		<link rel="stylesheet" type="text/css" href="./style.css"/> -->
+		<script type='text/javascript' src='./test.js'></script>
+		<link rel="stylesheet" type="text/css" href="./style.css"/>
 
 	</head>
 
@@ -27,13 +25,10 @@
 			embedded
 			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;">
 
-			<a-entity gltf-model="./assets/magic_book_of_eden/scene.gltf" rotation="0 180 0" scale="0.2 0.2 0.2" gps-entity-place="longitude: -79.505365; latitude: 43.772842;" animation-mixer/>
-			<a-entity gltf-model="./assets/head/scene.gltf" rotation="0 180 0" scale="5 5 5" gps-entity-place="longitude: -79.505364; latitude: 43.772842;" animation-mixer/>
-			
-<!-- 			<a-camera gps-camera rotation-reader></a-camera> -->
+			<a-camera gps-camera rotation-reader></a-camera>
 <!-- 			<a-camera gps-camera position="0 3 0" rotation-reader></a-camera>			 -->
 			<!-- <a-camera gps-camera="simulateLatitude: 43.772087; simulateLongitude: -79.502759 gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera>  -->
- 			<a-camera gps-camera="simulateLatitude: 43.772842; simulateLongitude: -79.505365;" rotation-reader></a-camera> 			
+<!--  			<a-camera gps-camera="simulateLatitude: 43.772842; simulateLongitude: -79.505365;" rotation-reader></a-camera> 			 -->
 			<!-- <a-camera gps-camera="gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera> -->
 
 		</a-scene>
