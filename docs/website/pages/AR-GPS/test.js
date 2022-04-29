@@ -147,7 +147,7 @@ function staticLoadPlaces() {
     ];
 }
 
-var models = [
+/*var models = [
     {
         name: 'eden',
         url: './assets/magic_book_of_eden/scene.gltf',
@@ -156,14 +156,14 @@ var models = [
         info: 'Magic Book',
         message: 'Magic Book'
     },
-    /*
+    
     {
         url: './assets/head/scene.gltf',
         scale: '5.0 5.0 5.0',
         rotation: '0 180 0',
         info: '5',
         message: '5'
-    },*/
+    },
     {
         name: 'head',
         url: './assets/head/scene.glb',
@@ -220,7 +220,7 @@ var models = [
         info: 'Bookshelf',
         message: 'Bookshelf'
     },
-];
+];*/
 
 
 var setModel = function (model, entity) {
