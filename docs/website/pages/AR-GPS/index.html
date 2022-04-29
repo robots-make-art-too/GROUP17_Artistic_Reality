@@ -12,8 +12,8 @@
 <!-- 		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> -->
 		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
 
-		<script type='text/javascript' src='./test.js'></script>
-		<link rel="stylesheet" type="text/css" href="./style.css"/>
+<!-- 		<script type='text/javascript' src='./test.js'></script>
+		<link rel="stylesheet" type="text/css" href="./style.css"/> -->
 
 	</head>
 
@@ -25,6 +25,9 @@
 			embedded
 			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;">
 
+			<a-entity gltf-model="./assets/magic_book_of_eden/scene.gltf" rotation="0 180 0" scale="0.2 0.2 0.2" gps-entity-place="longitude: -79.505365; latitude: 43.772842;" animation-mixer/>
+			<a-entity gltf-model="./assets/head/scene.gltf" rotation="0 180 0" scale="5 5 5" gps-entity-place="longitude: -79.505364; latitude: 43.772842;" animation-mixer/>
+			
 <!-- 			<a-camera gps-camera rotation-reader></a-camera> -->
 <!-- 			<a-camera gps-camera position="0 3 0" rotation-reader></a-camera>			 -->
 			<!-- <a-camera gps-camera="simulateLatitude: 43.772087; simulateLongitude: -79.502759 gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera>  -->
