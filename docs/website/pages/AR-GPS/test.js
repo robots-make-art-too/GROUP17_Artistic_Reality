@@ -2,19 +2,6 @@ window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
     console.log('Hello');
-
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-            gpspos => {
-                console.log(`Lat ${gpspos.coords.latitude} Lon ${gpspos.coords.longitude}`); // show on the console
-            },
-            err => {
-                alert(`An error occurred: ${err.code}`);
-            }
-        );
-    } else {
-        alert("Sorry, geolocation not supported in this browser");
-    }
 };
 
 function staticLoadPlaces() {
@@ -138,10 +125,11 @@ function staticLoadPlaces() {
             url: './assets/microscope/scene.gltf',
             scale: '1.2 1.2 1.2',
             rotation: '0 180 0',
-            info: 'Mircoscope',
+            info: 'Microscope',
             message: 'Microscope'
         },
     ];
+};
 
 function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
@@ -158,10 +146,12 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', scl);
         model.setAttribute('rotation', rot);
         model.setAttribute('gltf-model', url);
+        
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'));        
             const div = document.querySelector('.instructions');
