@@ -1,6 +1,7 @@
 window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
+    checkContent();
     console.log('Hello');
 };
 
@@ -146,20 +147,20 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        
+        model.setAttribute('id', modelName);
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', scl);
         model.setAttribute('rotation', rot);
         model.setAttribute('gltf-model', url);
         console.log(`${url}`);
-        let check = model.getAttribute(gps-entity-place);
+        let check = document.getElementById(`${modelName}`).getAttribute('gps-entity-place');
         console.log(`${check}`);
         
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'));        
             const div = document.querySelector('.instructions');
             div.innerText = info;
-            console.log(`DIV: ${info}`)
+            console.log(div.innerText)
         });
 
         scene.appendChild(model);
