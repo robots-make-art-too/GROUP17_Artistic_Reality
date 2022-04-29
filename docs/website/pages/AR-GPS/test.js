@@ -1,7 +1,6 @@
 window.onload = () => {
     let places = staticLoadPlaces();
     renderPlaces(places);
-    checkContent();
     console.log('Hello');
 };
 
@@ -153,9 +152,7 @@ function renderPlaces(places) {
         model.setAttribute('rotation', rot);
         model.setAttribute('gltf-model', url);
         console.log(`${url}`);
-        let check = document.querySelector('a-entity').getAttribute('gps-entity-place');
-        console.log(`${check}`);
-        
+                
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'));        
             const div = document.querySelector('.instructions');
@@ -165,4 +162,7 @@ function renderPlaces(places) {
 
         scene.appendChild(model);
     });
+    
+    let check = document.querySelector('a-entity').getAttribute('gps-entity-place');
+    console.log(`${check}`);
 }
