@@ -14,48 +14,14 @@
 
 		<script type='text/javascript' src='./test.js'></script>
 		<link rel="stylesheet" type="text/css" href="./style.css"/>
-		
-  	        <script type = "text/javascript">
-
-			 function showLocation(position) {
-			    var latitude = position.coords.latitude;
-			    var longitude = position.coords.longitude;
-			    alert("Latitude : " + latitude + " Longitude: " + longitude);
-			 }
-
-			 function errorHandler(err) {
-			    if(err.code == 1) {
-			       alert("Error: Access is denied!");
-			    } else if( err.code == 2) {
-			       alert("Error: Position is unavailable!");
-			    }
-			 }
-
-			 function getLocation() {
-
-			    if(navigator.geolocation) {
-
-			       // timeout at 60000 milliseconds (60 seconds)
-			       var options = {timeout:60000};
-			       navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
-			    } else {
-			       alert("Sorry, browser does not support geolocation!");
-			    }
-			 }
-
-		</script>
 
 	</head>
 
 	<body style="margin: 0; overflow: hidden;">
-		<div class="centered instructions">
-			<form><input type = "button" onclick = "getLocation();" value = "Get Location"/></form>
-			<br>
-		</div>
-		<div>
+		<div class="centered instructions"></div>
 		<a-scene
 			vr-mode-ui="enabled: false"
-			embedded
+			
 			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;">
 
 			<a-camera gps-camera rotation-reader></a-camera>
@@ -65,6 +31,5 @@
 			<!-- <a-camera gps-camera="gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera> -->
 			
 		</a-scene>
-		</div>
 	</body>
 </html>
