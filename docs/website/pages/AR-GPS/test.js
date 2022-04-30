@@ -10,14 +10,14 @@ window.onload = () => {
 function showLocation(position) {
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
-    alert("Latitude : " + latitude + " Longitude: " + longitude);
+    console.log("Latitude : " + latitude + " Longitude: " + longitude);
  };
 
  function errorHandler(err) {
     if(err.code == 1) {
-       alert("Error: Access is denied!");
+       console.log("Error: Access is denied!");
     } else if( err.code == 2) {
-       alert("Error: Position is unavailable!");
+       console.log("Error: Position is unavailable!");
     }
  };
 
@@ -27,7 +27,7 @@ function showLocation(position) {
        let options = {timeout:60000};
        navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
     } else {
-       alert("Sorry, browser does not support geolocation!");
+       console.log("Sorry, browser does not support geolocation!");
     }
  };
 
@@ -188,8 +188,9 @@ function renderPlaces(places) {
         });
 
         scene.appendChild(model);
-        console.log(model);
+        console.log(`${modelName}`);
         getLocation();
     });
-    
-}
+ }
+ 
+getLocation();
