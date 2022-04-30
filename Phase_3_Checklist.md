@@ -1,4 +1,4 @@
-# Check List
+# Checklist
 
 [X] QR code submitted for printing (markers submitted for printing)
    
@@ -10,7 +10,7 @@
    
 [X] Instructions, introduction, theme, story etc. as documentation on landing webpage
 
-[] One of the following:
+[X] One of the following:
       -  List of GPS coords/locations
       -  List of custom markers, printed
       -  List of facial features tracked, or points used for AR content
@@ -19,7 +19,7 @@
 
 [X] GitHub commits of content from each group member
 
-[] PDF file of Group Project information - more comprehensive than the website landing page including:
+[X] PDF file of Group Project information - more comprehensive than the website landing page including:
        - Group members and contribution
        - Think of this PDF document as the detailed and comprehensive README.md and STATEMENT.md files combined
        - Specific customization of AR content submitted
