@@ -3,6 +3,8 @@ window.onload = () => {
     renderPlaces(places);
     console.log('Hello');
     getLocation();
+//     var id = navigator.geolocation.watchPosition(success[, error[, options]]);
+//     navigator.geolocation.clearWatch(id);
 //     let check = document.querySelector('a-entity').getAttribute('gps-entity-place');
 //     console.log(`${check}`);
 };
@@ -25,7 +27,8 @@ function showLocation(position) {
     if(navigator.geolocation) {
        // timeout at 60000 milliseconds (60 seconds)
        let options = {timeout:60000};
-       navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+       let geoLoc = navigator.geolocation;
+       let watchID = geoLoc.watchPosition(showLocation, errorHandler, options);
     } else {
        console.log("Sorry, browser does not support geolocation!");
     }
@@ -156,7 +159,7 @@ function staticLoadPlaces() {
             message: 'Microscope'
         },
     ];
-};
+}
 
 function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
@@ -184,13 +187,11 @@ function renderPlaces(places) {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'));        
             const div = document.querySelector('.instructions');
             div.innerText = info;
-            console.log(div.innerText)
+            console.log(div.innerText);
+            getLocation();
         });
 
         scene.appendChild(model);
         console.log(`${modelName}`);
-        getLocation();
     });
  }
- 
-getLocation();
