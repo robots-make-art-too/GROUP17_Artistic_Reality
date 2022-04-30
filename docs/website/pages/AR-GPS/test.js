@@ -121,8 +121,8 @@ function staticLoadPlaces() {
             name: 'microscope',
             location: 
             {
-                lat: 43.773735,
-                lng: -79.507699,
+                lat: 43.836571469193316,
+                lng: -78.99698812797654,
             },
             url: './assets/microscope/scene.gltf',
             scale: '1.2 1.2 1.2',
