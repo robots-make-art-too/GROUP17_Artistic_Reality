@@ -168,8 +168,8 @@ function renderPlaces(places) {
         let url = place.url;
         let info = place.info;
         let message = place.message;
-        let rot = place.scale;
-        let scl = place.rotation;
+        let rot = place.rotation;
+        let scl = place.scale;
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
