@@ -2,8 +2,7 @@
 
 ## Sound and Moving Image Library 
 
-![S_SS](photos/Sound_SS.jpg | width = 1000)
-<img src="photos/Sound_SS.jpg" width="1000">
+<img src="photos/Sound_SS.jpg" scale="0.5">
 ![S_SS](photos/sound.jpg "Sound_SS")
 
 ## Joan and Martin Goldfarb Centre for Fine Arts
