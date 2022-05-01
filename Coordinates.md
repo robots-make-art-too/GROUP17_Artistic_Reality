@@ -9,4 +9,4 @@
 | York Lanes | 43.774261 | -79.501614 |
 | Aviva Centre | 43.7718 | -79.5126 |
 | Scott Library | 43.772342 | -79.505551 |
-| Science Equipment | 43.773735 | -79.507699 |
+| Life Sciences Building | 43.773735 | -79.507699 |
