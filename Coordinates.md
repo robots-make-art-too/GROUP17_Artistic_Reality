@@ -1,6 +1,6 @@
 | Location name | Latitude|Longitude |
 | :---         |     :---:      |          ---: |
-| Sound and Moving Library | 43.772842 | -79.505365 | 
+| Sound and Moving Image Library | 43.772842 | -79.505365 | 
 | Center for Fine Arts | 43.772087 | -79.502759 |
 | Vari Hall | 43.773191 | -79.503064 |
 | York University Station | 43.773863 | -79.50017 |
