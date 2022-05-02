@@ -1,35 +1,33 @@
-# Checklist
+# Group 17 - Artistic Reality
 
-- [x] QR code submitted for printing (markers submitted for printing)
-   
-- [x] The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the reminder to have a meeting with me)
+## Group Members
+- Haobin Alturo 
+- Raju Sivanantham
+- Mohammed Mawi
+- Sarika Patel
+- Basma Gado
 
-- [X] Set of videos and photos documenting the experience and all working components
 
-- [x] The live website at gh - pages branch AND QR code to custom Group landing page and AR activation
-   
-- [x] Instructions, introduction, theme, story etc. as documentation on landing webpage
+## Repo Files
 
-- [x] One of the following:
-      -  List of GPS coords/locations
-      -  List of custom markers, printed
-      -  List of facial features tracked, or points used for AR content
+* `Group_Members.md` 
+      - list of gorup members in Artistic Reality
 
-- [X] a clean and organized repo
+* `resources.md`
+      - list of technological and asethetic resources from phase 1
 
-- [x] GitHub commits of content from each group member
+* `Project_Idea.md`
+      - general group porject idea from phase 1
 
-- [ ] PDF file of Group Project information - more comprehensive than the website landing page including:
-       - Group members and contribution
-       - Think of this PDF document as the detailed and comprehensive README.md and STATEMENT.md files combined
-       - Specific customization of AR content submitted
-           - is this in the interaction code?
-           - is this in the concept?
-           - is this in the models?
-           - is this in the experience?
-           - what is the expected experience: what should we see and where (if you have treasure/riddle content you may leave this out until after we test)
-           - other ?
-           
-- [ ] Also to be evaluated is the final project experience and functionality
-       - 3 marks for technical code: complexity, interaction, difficulty
-       - 3 marks for aesthetic experience: design, cohesiveness, affect
+* `AR_Landing_QR_Code.png`
+      - QR code for the Artistic Reality AR Landing Page
+
+* `Coordinates.md`
+      - list of Locations and coordinates around York University 
+
+* `Group_Project_Information.pdf` 
+      - pdf file containing detailed technological and esthetic descriptions, AR customization, each group member's contribution, and model references
+
+* `Videos_and_Photos`
+      - folder containing video and photo documentation of project working
+
