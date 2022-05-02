@@ -2,12 +2,8 @@
 
 ### Group Members:
 
-Alturo
-
-Basma
-
-Mohammed
-
-Raju
-
-Sarika
+Haobin Alturo 
+Raju Sivanantham
+Mohammed Mawi
+Sarika Patel
+Basma Gado
