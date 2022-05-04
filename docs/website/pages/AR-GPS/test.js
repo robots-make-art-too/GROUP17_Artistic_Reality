@@ -12,8 +12,8 @@ window.onload = () => {
 function showLocation(position) {
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
-    //console.log("Latitude : " + latitude + " Longitude: " + longitude);
-    alert("Latitude : " + latitude + " Longitude: " + longitude);
+    console.log("Latitude : " + latitude + " Longitude: " + longitude);
+    //alert("Latitude : " + latitude + " Longitude: " + longitude);
  };
 
  function errorHandler(err) {
