@@ -19,7 +19,7 @@
 
 - [x] GitHub commits of content from each group member
 
-- [ ] PDF file of Group Project information - more comprehensive than the website landing page including:
+- [x] PDF file of Group Project information - more comprehensive than the website landing page including:
        - Group members and contribution
        - Think of this PDF document as the detailed and comprehensive README.md and STATEMENT.md files combined
        - Specific customization of AR content submitted
