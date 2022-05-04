@@ -9,7 +9,7 @@
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 		<script type="text/javascript" src="ar-threex.js"></script>
 
-<!-- 		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> -->
+ 		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
 		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
 
 		<script type='text/javascript' src='./test.js'></script>
@@ -29,6 +29,13 @@
 			<!-- <a-camera gps-camera="simulateLatitude: 43.772087; simulateLongitude: -79.502759 gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera>  -->
 <!--  			<a-camera gps-camera="simulateLatitude: 43.772842; simulateLongitude: -79.505365;" rotation-reader></a-camera> 			 -->
 			<!-- <a-camera gps-camera="gpsMinDistance: 2" position="0 3 0" rotation-reader></a-camera> -->
+			
+			<a-assets>
+    			<img id="arrow" src="https://cdn.pixabay.com/photo/2013/07/12/13/43/arrow-147172_1280.png">
+			<a-asset-item id="book" src="endless-source/book.gltf"></a-asset-item>
+			</a-assets>
+			
+			<a-image src="#arrow" look-at="[gps-camera]" width="32" height="24" gps-entity-place="latitude: 43.768806; longitude:  -79.497362;"></a-image>
 			
 		</a-scene>
 	</body>
